@@ -1,0 +1,94 @@
+html{
+  font: bold Times New Roman, serif;
+  text-align: center;
+  }
+
+  body.index{
+    background-image: url('https://wallpapercave.com/wp/RQEgLI5.jpg');
+  }
+
+  body.get{
+    background-color: aquamarine;
+  }
+
+  body.info{
+    background-color: cornflowerblue;
+  }
+
+  body.recipe{
+    background-image: url('https://img.freepik.com/free-photo/bakery_23-2148011621.jpg?size=626&ext=jpg');
+    background-repeat: no-repeat;
+    background-size: 2250px 1100px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2{
+    padding-right: 150px;
+  }
+
+  h3{
+    font-size: 30px;
+  }
+
+  .sidebar{
+    height: 100%;
+    width: 250px;
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: darkcyan;
+  }
+
+  .sidebar a{
+    color: darkgreen;
+    font-size: 20px;
+  }
+
+  .sidebar a:hover {
+    color: turquoise;
+  }
+
+  /*.sidebar a:visited{
+    color: turquoise;
+  }*/
+
+  img{
+    border: solid 6px rgb(12, 85, 28);
+  }
+
+ ul{
+   padding-left: 650px;
+ }
+
+ol{
+  padding-left: 600px;
+}
+
+ li{
+   padding-right: 700px;
+ }
+
+ mark{
+   background-color: rgba(0, 255, 255, 0.644);
+ }
+
+ mark:hover{
+   color: green;
+ }
+
+ table, td{
+   margin-left: auto;
+   margin-right: auto;
+   background-color: lightblue;
+   width: 700px;
+   border: solid 2px black;
+ }
+
+ th{
+   background-color: rgb(4, 161, 161);
+   font-size: 20px;
+   border: solid 2px black;
+ }
